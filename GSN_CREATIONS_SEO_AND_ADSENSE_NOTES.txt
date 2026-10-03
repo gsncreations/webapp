@@ -1,0 +1,17 @@
+GSN CREATIONS - SEO / ADSENSE CONTENT NOTES
+
+This file is for the site owner only and is intentionally not linked from the public website.
+
+SEO CONTENT PLAN
+- Use descriptive project titles: controller + device + purpose.
+- Write an original overview for every project.
+- Include components, wiring, working process, scope, troubleshooting and limitations.
+- Add descriptive alt text to project and circuit images.
+- Keep each article focused on one maker question.
+- Link related projects, tools, animations and blog guides.
+
+ANIMATION LIBRARY
+Each animation should have: title, preview, resolution, frame count/FPS, board support, description, animation.h download, .ino download and complete ZIP.
+
+ADSENSE
+Google's current guidance emphasizes original, useful content, clear navigation, ownership/access to the site's HTML, privacy disclosures and a good user experience. AdSense approval is never guaranteed by a template alone. Review Google's current policies before applying.

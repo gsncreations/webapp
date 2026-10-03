@@ -1,0 +1,20 @@
+GSN CREATIONS — HUMAN-FIRST CONTENT WORKFLOW
+
+There is no published Google AdSense rule that limits a site to a particular percentage of AI-written content.
+The safer approach is to publish useful, original, people-first material based on the real projects.
+
+For every new project:
+- Start from the actual hardware and measurements.
+- Upload real project/circuit/wiring images.
+- Record the real connections.
+- Describe real problems and fixes.
+- Do not invent test results, specifications or personal experiences.
+- Use the assistant for editing, structure, clarity and formatting, not for fabricating the project.
+
+For blog posts:
+- Base the article on a real build, test, tutorial or lesson.
+- Add original photos, diagrams, code and observations when appropriate.
+- Keep downloads secondary to the useful explanation.
+- Review every technical statement before publishing.
+
+AdSense approval is never guaranteed by a template or by an AI/human percentage.

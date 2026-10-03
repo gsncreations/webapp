@@ -1,0 +1,38 @@
+GSN CREATIONS - MQ Sensor Detector
+
+PROJECT OVERVIEW
+Display an MQ-series sensor reading and detector status on a compact OLED interface.
+
+USED COMPONENTS
+- ESP32
+- MQ-series sensor module
+- 0.96-inch SSD1306 OLED
+- Breadboard
+- Jumper wires
+
+CONNECTIONS
+- OLED SDA/SCL → ESP32 I2C pins configured by the sketch
+- OLED VCC/GND → compatible supply/GND
+- MQ sensor VCC/GND → the sensor-rated supply/GND
+- MQ analog/digital output → the GPIO defined by the sketch
+
+WORKING PROCESS
+1. Allow the sensor to warm up as required
+2. Read the sensor output
+3. Convert the reading into a useful displayed value/status
+4. Update the OLED
+5. Trigger an alert when the chosen threshold is reached
+
+SCOPE / WHAT YOU LEARN
+- Analog/digital sensor interfaces
+- Threshold design
+- OLED visualization
+- Sensor experiments
+- Embedded monitoring
+
+IMPORTANT NOTE
+MQ modules differ by model and supply requirement; use the exact module specification.
+
+MEDIA
+- project-image.svg = project visual / replace with your own project photo when publishing
+- connections-diagram.svg = circuit/connection reference

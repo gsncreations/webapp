@@ -1,0 +1,40 @@
+GSN CREATIONS - ESP32 OLED Song Animation
+
+PROJECT OVERVIEW
+Convert a video into 128×64 monochrome animation frames and play them on a 0.96-inch SSD1306 OLED using ESP32.
+
+USED COMPONENTS
+- ESP32 development board
+- 0.96-inch SSD1306 128×64 I2C OLED
+- Breadboard
+- Jumper wires
+- USB cable / suitable 5V power source
+
+CONNECTIONS
+- OLED VCC → ESP32 3.3V
+- OLED GND → ESP32 GND
+- OLED SDA → GPIO 21
+- OLED SCL → GPIO 22
+- OLED I2C address → 0x3C
+
+WORKING PROCESS
+1. Create or select a short video
+2. Use the GSN Video → animation.h converter
+3. Preview the 128×64 result and adjust FPS/threshold/rotation/invert
+4. Download the generated .h and matching .ino
+5. Place both in the Arduino sketch folder and upload to ESP32
+6. The ESP32 sends each frame to the OLED in sequence
+
+SCOPE / WHAT YOU LEARN
+- OLED graphics and bitmap rendering
+- Frame-based animation
+- Video-to-embedded-data workflow
+- I2C display interfacing
+- Memory-aware embedded design
+
+IMPORTANT NOTE
+Keep the OLED supply within the module rating and verify the exact ESP32 pin mapping before wiring.
+
+MEDIA
+- project-image.svg = project visual / replace with your own project photo when publishing
+- connections-diagram.svg = circuit/connection reference

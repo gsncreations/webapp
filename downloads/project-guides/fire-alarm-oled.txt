@@ -1,0 +1,42 @@
+GSN CREATIONS - Fire Alarm with OLED
+
+PROJECT OVERVIEW
+A compact educational fire-alert prototype using Arduino, flame sensor, buzzer and SSD1306 OLED.
+
+USED COMPONENTS
+- Arduino UNO
+- 0.96-inch SSD1306 OLED
+- Flame sensor module
+- Buzzer
+- Breadboard
+- Jumper wires
+
+CONNECTIONS
+- OLED SDA → A4
+- OLED SCL → A5
+- OLED VCC → module-compatible supply
+- OLED GND → GND
+- Flame sensor VCC/GND → supply/GND
+- Flame sensor signal → the digital input defined by the sketch
+- Buzzer signal → the buzzer output defined by the sketch
+
+WORKING PROCESS
+1. Initialize OLED and sensor
+2. Read the flame sensor
+3. Show normal status on the OLED
+4. When the fire condition is detected, activate the buzzer and show an alert
+5. Continue monitoring and return to normal when the sensor clears
+
+SCOPE / WHAT YOU LEARN
+- Sensor-to-controller basics
+- Digital input handling
+- OLED status interfaces
+- School demonstration projects
+- Alert-system prototyping
+
+IMPORTANT NOTE
+This is an educational prototype, not a certified fire-safety device.
+
+MEDIA
+- project-image.svg = project visual / replace with your own project photo when publishing
+- connections-diagram.svg = circuit/connection reference

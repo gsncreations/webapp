@@ -1,0 +1,40 @@
+GSN CREATIONS - Solar Tracking Prototype
+
+PROJECT OVERVIEW
+A cardboard-friendly solar tracking prototype that turns a panel toward stronger light.
+
+USED COMPONENTS
+- Small solar panel
+- Microcontroller
+- Light sensors
+- Servo(s)
+- Breadboard
+- Jumper wires
+- Cardboard mechanical frame
+
+CONNECTIONS
+- Light sensors → analog inputs selected by the sketch
+- Servo signal → configured PWM-capable control pin
+- Servo power → suitable external supply where required
+- Controller, sensors and servo grounds → common ground
+
+WORKING PROCESS
+1. Measure light on multiple sides
+2. Compare sensor readings
+3. Move the servo toward the brighter side
+4. Repeat at a controlled interval
+5. Stop or center when readings are close
+
+SCOPE / WHAT YOU LEARN
+- Solar-energy demonstrations
+- Feedback/control loops
+- Sensor comparison
+- Servo control
+- Cardboard prototyping
+
+IMPORTANT NOTE
+Keep the panel and servo mechanically supported and use a suitable supply for the servo.
+
+MEDIA
+- project-image.svg = project visual / replace with your own project photo when publishing
+- connections-diagram.svg = circuit/connection reference

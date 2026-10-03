@@ -1,0 +1,30 @@
+GSN CREATIONS — ADSENSE SETUP
+
+This website is structured to be AdSense-ready, but no site can be guaranteed approval by code alone. Google reviews the live site and its content.
+
+1. Publish the site on your real domain. Do not submit localhost or the Live Server address.
+2. Make sure Home, Projects, individual project pages, Blog, About, Contact, Privacy Policy, Terms and Disclaimer are accessible.
+3. In AdSense, add your real domain under Sites and complete Google's verification/review process.
+4. After Google gives you your publisher ID (ca-pub-...), open assets/js/adsense-config.js and replace the empty client value.
+5. Deploy again. The site will then load Google's official AdSense script.
+6. In AdSense > Privacy & messaging, configure the Google CMP / required consent messages for applicable regions.
+7. When AdSense provides your exact ads.txt seller line, copy that exact line into a new root-level ads.txt file. Do not use the example line.
+8. If you use Auto ads, enable them in AdSense. The website does not invent ad slots or fake ad IDs.
+
+Important content strategy
+- Keep project pages genuinely useful and detailed.
+- Keep blog articles original and specific to your own builds.
+- Keep navigation clear.
+- Do not place ads beside or inside download/navigation controls.
+- Do not ask visitors to click ads.
+- Do not publish thin pages made only for downloads.
+- Keep Privacy Policy accurate to the services you actually use.
+
+Before submitting to AdSense
+- Replace placeholder site/domain text.
+- Check every navigation link.
+- Test mobile layout.
+- Test every project download and every animation download.
+- Check that no old GIF/BIN tool links remain.
+- Add your real contact details.
+- Add your real project photos and circuit diagrams.

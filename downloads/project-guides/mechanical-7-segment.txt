@@ -1,0 +1,43 @@
+GSN CREATIONS - Mechanical 7-Segment Display
+
+PROJECT OVERVIEW
+A five-digit mechanical display using 35 servos, with seven servo-controlled segments per digit.
+
+USED COMPONENTS
+- 35× SG90/MG90S servos
+- 3× PCA9685/PCA9680 servo driver boards
+- 5V high-current supply
+- 4700µF capacitors
+- Fuses
+- Controller board
+- Power and signal wiring
+
+CONNECTIONS
+- PCA #1 address 0x40 → 11 servos
+- PCA #2 address 0x44 → 12 servos
+- PCA #3 address 0x42 → 12 servos
+- Controller SDA/SCL → PCA I2C bus
+- Servo power rails → properly rated external 5V supply
+- Controller GND and servo-supply GND → common ground
+
+WORKING PROCESS
+1. Map each digit to seven segment servos
+2. Initialize the PCA boards
+3. Set a safe starting position
+4. Calculate which segments change
+5. Move servos with controlled gaps
+6. Use sequential digit/servo movement to reduce simultaneous current demand
+
+SCOPE / WHAT YOU LEARN
+- I2C PWM expansion
+- Servo sequencing
+- Mechanical display design
+- High-current wiring
+- Large multi-actuator projects
+
+IMPORTANT NOTE
+Do not power 35 servos from a microcontroller board. Use appropriate external power, fusing and wiring.
+
+MEDIA
+- project-image.svg = project visual / replace with your own project photo when publishing
+- connections-diagram.svg = circuit/connection reference

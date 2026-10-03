@@ -1,0 +1,38 @@
+GSN CREATIONS WEBSITE - USER INSTRUCTIONS
+
+RUN LOCALLY
+1. Extract the website ZIP.
+2. Open the extracted folder in VS Code.
+3. Open index.html with Live Server.
+4. Use Home > Tools > Video -> animation.h.
+
+VIDEO -> animation.h
+1. Choose a video.
+2. Check the 128x64 OLED preview.
+3. Set FPS, rotation, threshold and invert if required.
+4. Select ESP32, ESP32-C3, ESP8266 or Arduino UNO.
+5. Enter the project/animation name.
+6. Rename animation.h and .ino if required.
+7. Click Generate Files.
+8. Download the .ino or Download Project ZIP.
+
+PROJECT ZIP
+The generated ZIP contains:
+- renamed animation.h
+- matching .ino player
+- README.txt
+
+OLED CONNECTIONS
+ESP32: SDA GPIO21, SCL GPIO22
+ESP32-C3: SDA GPIO4, SCL GPIO5
+ESP8266: SDA D2, SCL D1
+Arduino UNO: SDA A4, SCL A5
+OLED address: 0x3C
+OLED: SSD1306 128x64
+
+REQUIRED ARDUINO LIBRARIES
+- Adafruit GFX Library
+- Adafruit SSD1306
+
+IMPORTANT
+The website itself contains only the user-facing pages and tools. This instruction file is kept separately and is not part of the website pages.

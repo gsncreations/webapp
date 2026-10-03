@@ -1,0 +1,39 @@
+GSN CREATIONS - DINO OLED Game
+
+PROJECT OVERVIEW
+A small monochrome OLED game using ESP32, a 0.96-inch SSD1306 display and a button input.
+
+USED COMPONENTS
+- ESP32
+- 0.96-inch SSD1306 OLED
+- 5-pin button module / push button arrangement
+- Breadboard
+- Jumper wires
+
+CONNECTIONS
+- OLED SDA/SCL → the I2C pins configured by the sketch
+- OLED VCC/GND → compatible supply/GND
+- Button signal → the GPIO defined by the game sketch
+- All grounds share a common GND
+
+WORKING PROCESS
+1. Initialize OLED
+2. Draw the player and obstacles
+3. Read the button state
+4. Update player position and obstacle movement
+5. Check collision logic
+6. Refresh the OLED continuously
+
+SCOPE / WHAT YOU LEARN
+- Button input
+- Game loops and timing
+- Bitmap graphics
+- Collision logic
+- Interactive embedded projects
+
+IMPORTANT NOTE
+Use the exact GPIO assignment from the final sketch when wiring the button.
+
+MEDIA
+- project-image.svg = project visual / replace with your own project photo when publishing
+- connections-diagram.svg = circuit/connection reference

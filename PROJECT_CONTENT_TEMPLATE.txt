@@ -1,0 +1,34 @@
+GSN CREATIONS — MANUAL PROJECT CONTENT TEMPLATE
+
+Use this when adding a real project to the website.
+
+1. Project name:
+2. Why I made it:
+3. What I wanted it to do:
+4. Components I actually used:
+5. Component purpose:
+6. Exact connections:
+7. Controller board:
+8. Display/sensors/actuators:
+9. Power supply:
+10. How I built it:
+11. How it works:
+12. Problems I faced:
+13. How I fixed them:
+14. Testing steps:
+15. Final result:
+16. What I learned:
+17. Scope / possible uses:
+18. Limitations:
+19. Future improvements:
+20. Real project photo filename:
+21. Real circuit diagram filename:
+22. Real wiring photo filename:
+23. Code filename:
+24. Download ZIP filename:
+
+IMPORTANT:
+- Replace sample/reference images with your own real project photos and diagrams.
+- Do not add made-up test results or measurements.
+- Keep technical values matched to the actual hardware and final sketch.
+- The website can help format your notes, but the project facts should come from the actual build.
